@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Agua Cerca · Soporte</title>
+<link rel="icon" href="icono.png">
+<style>
+  :root { --texto: #1c1c1e; --suave: #5f6368; --azul: #0d66d1; --fondo: #ffffff; --linea: #e5e5ea; }
+  @media (prefers-color-scheme: dark) {
+    :root { --texto: #f2f2f7; --suave: #aeaeb2; --azul: #4d9bff; --fondo: #111113; --linea: #2c2c2e; }
+  }
+  body { margin: 0; background: var(--fondo); color: var(--texto);
+         font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+  header { display: flex; gap: 16px; align-items: center; margin-bottom: 8px; }
+  header img { width: 72px; height: 72px; border-radius: 16px; }
+  h1 { font-size: 30px; line-height: 1.2; margin: 0; }
+  .sub { color: var(--suave); margin: 0; }
+  h2 { font-size: 20px; margin: 32px 0 8px; padding-top: 16px; border-top: 1px solid var(--linea); }
+  a { color: var(--azul); }
+  .contacto { font-size: 20px; font-weight: 600; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="icono.png" alt="">
+    <div>
+      <h1>Agua Cerca</h1>
+      <p class="sub">Puntos de abastecimiento de agua ante emergencias · Lima</p>
+    </div>
+  </header>
+
+  <h2>¿Qué es?</h2>
+  <p>Agua Cerca muestra en un mapa los hidrantes y cámaras especiales que Sunass identifica como puntos provisionales de abastecimiento fijo ante emergencias en Lima Metropolitana y Callao, y te indica cuál está más cerca de ti. También puede mostrar las horas de agua al día de cada sector de distribución.</p>
+  <p>Es una app independiente: <strong>no es una aplicación oficial</strong> de Sunass ni de SEDAPAL. Los datos provienen del portal público GeoSunass y son referenciales.</p>
+
+  <h2>Contacto y soporte</h2>
+  <p>¿Encontraste un error, un punto mal ubicado o tienes una sugerencia? Escríbenos:</p>
+  <p class="contacto"><a href="mailto:cuycoders@gmail.com">cuycoders@gmail.com</a></p>
+
+  <h2>Preguntas frecuentes</h2>
+  <p><strong>¿Necesita internet?</strong> Solo la primera vez, para descargar los datos. Después funciona sin conexión con la última copia descargada.</p>
+  <p><strong>¿Por qué pide mi ubicación?</strong> Para calcular qué punto está más cerca. Tu ubicación no sale del teléfono.</p>
+  <p><strong>Un punto no tiene agua o no existe.</strong> La información la publica Sunass y puede cambiar. Escríbenos para revisarlo y, ante una emergencia, sigue las indicaciones de las autoridades y de tu empresa de agua.</p>
+
+  <h2>Privacidad</h2>
+  <p>Lee la <a href="privacidad.html">política de privacidad</a>.</p>
+</main>
+</body>
+</html>
